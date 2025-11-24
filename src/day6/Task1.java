@@ -13,6 +13,6 @@ public class Task1 {
         motorbike.info();
 
         System.out.println(car.yearDifference(2020));
-        System.out.println(motorbike.yearDifference(2020));
+        System.out.println(motorbike.yearDifference(2020));     
     }
 }
