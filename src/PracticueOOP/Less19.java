@@ -8,7 +8,7 @@ public class Less19 {
         h2.printNumberOfPeople();
         Human h3 = new Human("Андрей", 320);
         h3.printNumberOfPeople();
-
+        System.out.println(h1);
     }
 }
 
@@ -43,6 +43,10 @@ class Human{
 
     public void getInfo() {
         System.out.println(name + " " + age);
+    }
+
+    public String toString() {
+        return name + ", " + age;
     }
 }
 
